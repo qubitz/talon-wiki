@@ -18,7 +18,7 @@ In order to script Talon it is useful to understand the abstractions it uses. Le
 
 The first concept is the [Module](./modules_and_contexts.md). This is used to group behavior like settings, actions, or tags.
 
-The [Context](modules_and_contexts.md) is a central feature of the Talon framework. A context is the circumstances under which a set of behaviour applies. For example we might only activate some voice commands when the title of the currently focussed window matches a given pattern. The concepts of [Tags](tags.md) and [Apps](apps.md), and less commonly [Modes](modes.md) and [Scopes](scopes.md) are all ways of providing information to match against in a Context.
+The [Context](modules_and_contexts.md) is a central feature of the Talon framework. A context is the circumstances under which a set of behaviour applies. For example we might only activate some voice commands when the title of the currently focused window matches a given pattern. The concepts of [Tags](tags.md) and [Apps](apps.md), and less commonly [Modes](modes.md) and [Scopes](scopes.md) are all ways of providing information to match against in a Context.
 
 The next key component is the implementation of behaviour via [Actions](actions.md). Two examples are moving the mouse cursor and pasting the contents of the clipboard. Talon comes with some built in actions, but most are defined and implemented in user scripts.
 
